@@ -1,8 +1,6 @@
 {
     "name": "xinchanedu/linktrack",
     "description": "客户链路跟踪包",
-    "type": "composer-plugin",
-    "license": "MIT",
     "authors": [
         {
             "name": "zhouleyli",
