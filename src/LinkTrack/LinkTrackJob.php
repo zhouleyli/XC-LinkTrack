@@ -18,7 +18,7 @@ class LinkTrackJob extends Job
     public function handle()
     {
         //查询该客户是否已有记录
-        if (CustomerSource::where('customer_id', $source_params['customer_id'])->first()) {
+        if (CustomerSource::where('customer_id', $this->source_params['customer_id'])->first()) {
             return $this->failed('已记录');
         }
         
